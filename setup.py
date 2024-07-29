@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="badchess",
+    name="Chessify",
     version="0.1",
     description="A library for making bad chess moves",
     long_description=open("README.md").read(),

@@ -1,6 +1,6 @@
 from math import inf
 import chess
-from badchess.main import (
+from chessify.main import (
     estimate_strength,
     estimate_strength_positioning,
     find_best_move,

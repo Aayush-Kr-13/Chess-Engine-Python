@@ -176,3 +176,70 @@ DEBUG 2024-07-29 17:55:27,299 Command received: quit
 DEBUG 2024-07-29 17:55:27,312 exit set
 DEBUG 2024-07-29 17:55:27,312 Consumer 1 done
 DEBUG 2024-07-29 17:55:27,665 Consumer 0 done
+DEBUG 2024-07-29 18:59:24,298 Producer: uci
+
+DEBUG 2024-07-29 18:59:24,304 Command received: uci
+
+DEBUG 2024-07-29 18:59:24,304 Command sent: id name badchess
+DEBUG 2024-07-29 18:59:24,304 Command sent: id author Kevin Schaul
+DEBUG 2024-07-29 18:59:24,311 Command sent: uciok
+DEBUG 2024-07-29 18:59:24,332 Producer: isready
+
+DEBUG 2024-07-29 18:59:24,338 Command received: isready
+
+DEBUG 2024-07-29 18:59:24,344 Command sent: readyok
+DEBUG 2024-07-29 18:59:24,357 Producer: ucinewgame
+
+DEBUG 2024-07-29 18:59:24,363 Command received: ucinewgame
+
+DEBUG 2024-07-29 18:59:32,623 Producer: position startpos moves d2d4
+
+DEBUG 2024-07-29 18:59:32,630 Command received: position startpos moves d2d4
+
+DEBUG 2024-07-29 18:59:32,630 Producer: go wtime 300000 btime 300000 movestogo 40
+
+DEBUG 2024-07-29 18:59:32,643 Command received: go wtime 300000 btime 300000 movestogo 40
+
+INFO 2024-07-29 18:59:32,922 n_positions_searched: 149
+INFO 2024-07-29 18:59:32,929 moves: ['b8c6', 'd4d5', 'e7e5'] strength: -0.006666666666666665
+DEBUG 2024-07-29 18:59:32,935 Command sent: bestmove b8c6
+DEBUG 2024-07-29 18:59:35,751 Producer: position startpos moves d2d4 b8c6 e2e3
+
+DEBUG 2024-07-29 18:59:35,757 Command received: position startpos moves d2d4 b8c6 e2e3
+
+DEBUG 2024-07-29 18:59:35,757 Producer: go wtime 297190 btime 299670 movestogo 39
+
+DEBUG 2024-07-29 18:59:35,770 Command received: go wtime 297190 btime 299670 movestogo 39
+
+INFO 2024-07-29 18:59:36,042 n_positions_searched: 236
+INFO 2024-07-29 18:59:36,049 moves: ['g8f6', 'f2f4', 'c6d4'] strength: -1.005
+DEBUG 2024-07-29 18:59:36,055 Command sent: bestmove g8f6
+DEBUG 2024-07-29 18:59:38,251 Producer: position startpos moves d2d4 b8c6 e2e3 g8f6 f2f4
+
+DEBUG 2024-07-29 18:59:38,257 Command received: position startpos moves d2d4 b8c6 e2e3 g8f6 f2f4
+
+DEBUG 2024-07-29 18:59:38,257 Producer: go wtime 295010 btime 299350 movestogo 38
+
+DEBUG 2024-07-29 18:59:38,268 Command received: go wtime 295010 btime 299350 movestogo 38
+
+INFO 2024-07-29 18:59:38,562 n_positions_searched: 256
+INFO 2024-07-29 18:59:38,569 moves: ['f6d5', 'c2c4', 'c6d4'] strength: -1.0016666666666667
+DEBUG 2024-07-29 18:59:38,575 Command sent: bestmove f6d5
+DEBUG 2024-07-29 18:59:40,451 Producer: position startpos moves d2d4 b8c6 e2e3 g8f6 f2f4 f6d5 g2g4
+
+DEBUG 2024-07-29 18:59:40,458 Command received: position startpos moves d2d4 b8c6 e2e3 g8f6 f2f4 f6d5 g2g4
+
+DEBUG 2024-07-29 18:59:40,458 Producer: go wtime 293150 btime 299010 movestogo 37
+
+DEBUG 2024-07-29 18:59:40,470 Command received: go wtime 293150 btime 299010 movestogo 37
+
+INFO 2024-07-29 18:59:40,769 n_positions_searched: 248
+INFO 2024-07-29 18:59:40,775 moves: ['a7a5', 'f1h3', 'c6d4'] strength: -0.9983333333333333
+DEBUG 2024-07-29 18:59:40,781 Command sent: bestmove a7a5
+DEBUG 2024-07-29 18:59:43,218 Producer: quit
+
+DEBUG 2024-07-29 18:59:43,224 Command received: quit
+
+DEBUG 2024-07-29 18:59:43,237 exit set
+DEBUG 2024-07-29 18:59:43,237 Consumer 1 done
+DEBUG 2024-07-29 18:59:43,822 Consumer 0 done

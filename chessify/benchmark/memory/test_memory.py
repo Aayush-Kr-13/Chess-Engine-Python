@@ -1,5 +1,5 @@
 import chess
-from badchess.main import (
+from chessify.main import (
     find_best_move,
 )
 
