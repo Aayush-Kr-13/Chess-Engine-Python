@@ -18,7 +18,7 @@ Moves = list[Move]
 StrengthAndMoves = Tuple[float, Moves]
 
 logging.basicConfig(
-    filename="badchess.log",
+    filename="chessify.log",
     encoding="utf-8",
     level=logging.DEBUG,
     format="%(levelname)s %(asctime)s %(message)s",
