@@ -8,11 +8,11 @@ run-lichess:
 
 .PHONY: benchmark-speed
 benchmark-speed:
-	pytest badchess/benchmark/speed \
+	pytest chessify/benchmark/speed \
 		--benchmark-min-rounds=20 \
 		--benchmark-autosave
 
 .PHONY: benchmark-memory
 benchmark-memory:
-	pytest badchess/benchmark/memory --memray \
+	pytest chessify/benchmark/memory --memray \
 		--stacks 1 > badchess/benchmark/memory/result.txt
