@@ -49,6 +49,7 @@ Follow these steps to clone the repository, set up the Python environment, and r
     eval "$(pyenv init --path)"
     eval "$(pyenv init -)"
     eval "$(pyenv virtualenv-init -)"
+    ```
     After adding these lines, reload your shell configuration:
 
 4. **Activate the Virtual Environment**
