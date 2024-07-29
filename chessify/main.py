@@ -105,8 +105,8 @@ def process_setoption():
 
 
 def process_uci():
-    send_command("id name badchess")
-    send_command("id author Kevin Schaul")
+    send_command("id name Chessify")
+    send_command("id author Aayush Kumar")
     send_command("uciok")
 
 
